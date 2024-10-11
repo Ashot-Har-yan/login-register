@@ -1,0 +1,19 @@
+import {Flex,Button} from 'antd';
+import './index.css'
+
+const Header = ()=>{
+    return(
+        <div className='main_header'>
+            <Flex justify='space-between' align = 'center'>
+                <p>Jira</p>
+                <div>
+                    <Button>
+                        Login
+                    </Button>
+                </div>
+            </Flex>
+        </div>
+    )
+}
+
+export default Header;

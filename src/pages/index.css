@@ -1,0 +1,20 @@
+.register{
+    border:3px solid #1111;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display:flex;
+    justify-content:center;
+    height: 100%;
+}
+.form-side{
+flex:1;
+
+}
+
+.register img{
+    flex: 1;
+    background-size: cover;
+}
+.register Button{
+    float:right;
+}
