@@ -3,12 +3,13 @@ import { Form, Button, Input } from 'antd';
 import { signInWithEmailAndPassword } from 'firebase/auth';
 import { auth } from "../../services/firebase";
 import { ROUTE_CONSTANTS } from "../../core/utils/constants";
-import { Link } from "react-router-dom"
-import login from '../images/login.webp' 
+import { Link } from "react-router-dom";
+import login from '../images/login.webp';
+import "../index.css"; 
 
 const Login = () => {
     const [loading,setLoading] = useState(false);
-    const form = Form.useForm();
+    const [form] = Form.useForm();
 
     const handleLogin = async values => {
     setLoading(true)

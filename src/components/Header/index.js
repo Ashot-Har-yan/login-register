@@ -7,7 +7,7 @@ const Header = ()=>{
             <Flex justify='space-between' align = 'center'>
                 <p>Jira</p>
                 <div>
-                    <Button>
+                    <Button >
                         Login
                     </Button>
                 </div>
