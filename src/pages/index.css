@@ -1,20 +1,29 @@
-.register,.login{
-    border:3px solid #1111;
+.log-reg_container{
+   
     padding-top: 20px;
     padding-bottom: 20px;
     display:flex;
     justify-content:center;
-    height: 100%;
+}
+
+
+.log-reg_container>img{
+    background-size: cover;
+max-height: 550px;
+border-top-left-radius: 12px;
+border-bottom-left-radius: 12px;
+width: 200px;
+
+
 }
 .form-side{
-flex:1;
-
+    border:3px solid #1111;
+    max-height: inherit;
+    max-width: inherit;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
 }
 
-.register img{
-    flex: 1;
-    background-size: cover;
-}
-.register Button,.logi Button{
+.log-reg_container Button{
     float:right;
 }

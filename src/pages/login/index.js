@@ -27,9 +27,9 @@ const Login = () => {
 };
 
  return(
-    <div className="login">
+    <div className="log-reg_container">
         <img src = {login} alt = "login" />
-        <div className='form-side'></div>
+        <div className='form-side'>
          <Form layout="vertical" form = {form} onFinish = {handleLogin}>
                <Form.Item
                     label = "Email"
@@ -66,6 +66,7 @@ const Login = () => {
                     Create Account
                     </Link>
             </Form>
+            </div>
         </div>
   
  )

@@ -27,8 +27,8 @@ const Register = ()=>{
 }
 return(
    
-    <div className='register'>
-        <img src = {reg} alt = "registr" />
+    <div className='log-reg_container'>
+        <img src = {reg} alt = "register" />
         <div className='form-side'>
         <Flex justify='center' >     
         <Form layout='vertical' form = {form} onFinish={handleRegister}>
